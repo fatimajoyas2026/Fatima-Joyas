@@ -22,7 +22,7 @@ fetch("./Productos.csv")
             catalogo.innerHTML += `
                 <div class="producto">
                     <img src="Productos/Collares/${foto}" alt="Collar ${contador}">
-                    <h3>Anillo ${contador}</h3>
+                    <h3>Collar ${contador}</h3>
                     <p class="precio">$${precio}</p>
 
                     <button onclick="comprar('Collar ${contador}','${precio}')">
